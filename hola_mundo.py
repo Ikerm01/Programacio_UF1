@@ -1,3 +1,3 @@
 print("Otra cosa")
-for i in range (0 , 50)
+for i in range (0 , 100)
     print("Abuelita")
