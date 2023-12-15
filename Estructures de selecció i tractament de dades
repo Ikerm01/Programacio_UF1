@@ -1,0 +1,10 @@
+nom_estudiants = int(input("Introdueix el nom del estudiant: "))
+estudiants = []
+i = 0
+while i < nom_estudiants:
+  nom = ("Introdueix el teu nom")
+  cognom = ("Introdueix el teu cognom")
+  edat = ("Introdueix la teva edat")
+  nota1 = ("Introdueix la primera nota")
+  nota2 = ("Introdueix la segona nota")
+  nota3 = ("Introdueix la tercera nota")
