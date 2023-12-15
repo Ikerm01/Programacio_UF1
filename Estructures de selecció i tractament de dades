@@ -8,3 +8,5 @@ while i < nom_estudiants:
   nota1 = ("Introdueix la primera nota")
   nota2 = ("Introdueix la segona nota")
   nota3 = ("Introdueix la tercera nota")
+estudiant = (nom, cognom, edat, nota1, nota2, nota3)
+estudiants.append(estudiant)
