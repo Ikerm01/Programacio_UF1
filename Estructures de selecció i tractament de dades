@@ -9,4 +9,16 @@ while i < nom_estudiants:
   nota2 = ("Introdueix la segona nota")
   nota3 = ("Introdueix la tercera nota")
 estudiant = (nom, cognom, edat, nota1, nota2, nota3)
-estudiants.append(estudiant)
+estudiants.append(estudiant)                   
+
+estudiants_mitjana_alta = []
+estudiants_nota_alta
+
+for estudiant in estudiants:
+  mintjana = (estudiant[3] * 0.3) + (estudiant[4] * 0.4) + (estudiant[5] * 0.3)
+
+  if mitjana > 7:
+    estudiants_mitjana_alta.append(estudiant)
+
+  if estudiant[3] > 8 or estudiant[4] > 8 or estudiant[5] > 8:
+    estudiants_nota_alta.append(estudiant)
