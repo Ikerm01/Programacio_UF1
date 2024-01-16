@@ -1,0 +1,13 @@
+cartas = ["8H", "4H", "2H", "7H", "10H", "3H", "9H", "6H", "AH", "JH", "5H", "KH", "QH", "QD", "KD", "2D", "3D", "AD", "7D", "8D", "9D", "10D", "JD", "4D", "6D", "5D", "5C", "10C", "3C", "AC", "6C", "9C", "JC", "QC", "7C", "4C", "8C", "KC", "2C", "7S", "5S", "AS", "10S", "2S", "6S", "JS", "QS", "8S", "3S", "KS", "4S", "9S"]
+jugadores = [[], [], [], []]
+
+for carta in cartas:
+  jugador = random.randit(0,len(jugadores) -1)
+  jugadores[jugador].append(carta)
+
+while i < 13:
+  j = 0
+  while j < 4:
+    jugadores[j].append(cartas.pop())
+    j = j + 1
+  i = i +1
