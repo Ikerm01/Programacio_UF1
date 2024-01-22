@@ -1,0 +1,11 @@
+while:
+print("1. Ver listado de libros")
+print("2. Añadir libros")
+print("3. Eliminar libros")
+
+opcion = input("seleciona una opcion")
+
+if = opcio == "1":
+  print(libro1,libro2)
+if = opcio == "2":
+  print()
