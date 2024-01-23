@@ -1,5 +1,6 @@
 libreria = []
 opcion = 0
+llibres_prestats = []
 while opcion != 4:
 print("1. Ver listado de libros")
 print("2. Añadir libros")
