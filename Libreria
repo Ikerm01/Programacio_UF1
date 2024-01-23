@@ -1,4 +1,6 @@
-while:
+libreria = []
+opcion = 0
+while opcion != 4:
 print("1. Ver listado de libros")
 print("2. Añadir libros")
 print("3. Eliminar libros")
@@ -8,4 +10,11 @@ opcion = input("seleciona una opcion")
 if = opcio == "1":
   print(libro1,libro2)
 if = opcio == "2":
-  print()
+  nuevo_libro = input("Introduce el nombre del nuevo libro")
+  libreria.append(nuevo_libro)
+if = opcio == "3":
+  eliminar_libro = input("Introduce el nombre del libro que quieres eliminar")
+    if eliminar_libro in libreria:
+      libreria.remove(eliminar_libro)
+      print(Libro eliminado)
+
