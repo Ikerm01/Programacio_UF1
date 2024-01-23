@@ -7,14 +7,19 @@ print("3. Eliminar libros")
 
 opcion = input("seleciona una opcion")
 
-if = opcio == "1":
-  print(libro1,libro2)
-if = opcio == "2":
-  nuevo_libro = input("Introduce el nombre del nuevo libro")
-  libreria.append(nuevo_libro)
-if = opcio == "3":
-  eliminar_libro = input("Introduce el nombre del libro que quieres eliminar")
-    if eliminar_libro in libreria:
-      libreria.remove(eliminar_libro)
-      print(Libro eliminado)
+  if = opcio == "1":
+    print(libreria)
+  elif = opcio == "2":
+    nuevo_libro = input("Introduce el nombre del nuevo libro: ")
+    libreria.append(nuevo_libro)
+    print("Libro añadido")
+  elif = opcio == "3":
+    eliminar_libro = input("Introduce el nombre del libro que quieres eliminar: ")
+          if eliminar_libro in libreria:
+              libreria.remove(eliminar_libro)
+              print("Libro eliminado")
+          else:
+              print("Libro no encontrado en la librería")
+  elif opcion == 4:
+    print(Has salido del programa)
 
