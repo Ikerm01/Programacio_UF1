@@ -2,13 +2,14 @@ libreria = []
 opcion = 0
 llibres_prestats = []
 
-while opcion != 6:
+while opcion != 7:
     print("1. Ver listado de libros")
     print("2. Añadir libros")
     print("3. Eliminar libros")
     print("4. Alquilar libro")
     print("5. Devolver libro")
-    print("6. Salir")
+    print("6. Ver listado de libros prestados")
+    print("7. Salir del programa")
     opcion = input("Selecciona una opción: ")
 
     if opcion == "1":
@@ -36,5 +37,7 @@ while opcion != 6:
         else:
             print("El libro no está en la lista de libros prestados")
     elif opcion == "6":
+        print(llibres_prestats)
+    elif opcion == "7":
         print("Has salido del programa")
 
