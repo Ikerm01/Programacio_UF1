@@ -13,31 +13,36 @@ while opcion != 7:
     opcion = input("Selecciona una opción: ")
 
     if opcion == "1":
-        print(libreria)
+        for libro in libreria:
+            print(libro)
     elif opcion == "2":
         nuevo_libro = input("Introduce el nombre del nuevo libro: ")
         libreria.append(nuevo_libro)
-        print("Libro añadido")
+        for libro in libreria:
+            print(libro)
     elif opcion == "3":
         eliminar_libro = input("Introduce el nombre del libro que quieres eliminar: ")
         if eliminar_libro in libreria:
             libreria.remove(eliminar_libro)
-            print("Libro eliminado")
+            for libro in libreria:
+                print(libro)
         else:
             print("Libro no encontrado en la librería")
     elif opcion == "4":
         libro_prestado = input("Introduce el nombre del libro que quieres alquilar: ")
         llibres_prestats.append(libro_prestado)
-        print("Libro alquilado")
+        for libro in llibres_prestats:
+            print(libro)
     elif opcion == "5":
         libro_devuelto = input("Introduce el nombre del libro que quieres devolver: ")
         if libro_devuelto in llibres_prestats:
             llibres_prestats.remove(libro_devuelto)
-            print("Libro devuelto")
+            for libro in llibres_prestats:
+                print(libro)
         else:
             print("El libro no está en la lista de libros prestados")
     elif opcion == "6":
-        print(llibres_prestats)
+        for libro in llibres_prestats:
+            print(libro)
     elif opcion == "7":
         print("Has salido del programa")
-
